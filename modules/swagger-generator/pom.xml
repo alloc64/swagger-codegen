@@ -369,7 +369,7 @@
         </dependency>
         <dependency>
             <groupId>io.swagger.codegen.v3</groupId>
-            <artifactId>swagger-codegen-generators</artifactId>
+            <artifactId>swagger-codegen-generators-custom</artifactId>
             <exclusions>
                 <exclusion>
                     <groupId>javax.activation</groupId>

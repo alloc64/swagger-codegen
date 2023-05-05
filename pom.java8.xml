@@ -1069,8 +1069,8 @@
             <!-- generators -->
             <dependency>
                 <groupId>io.swagger.codegen.v3</groupId>
-                <artifactId>swagger-codegen-generators</artifactId>
-                <version>${swagger-codegen-generators-version}</version>
+                <artifactId>swagger-codegen-generators-custom</artifactId>
+                <version>1.0.40-SNAPSHOT</version>
             </dependency>
             <!-- jackson -->
             <dependency>
@@ -1217,7 +1217,6 @@
         </repository>
     </repositories>
     <properties>
-        <swagger-codegen-generators-version>1.0.39</swagger-codegen-generators-version>
         <swagger-core-version>2.2.9</swagger-core-version>
         <swagger-core-version-v1>1.6.10</swagger-core-version-v1>
         <swagger-parser-version>2.1.13</swagger-parser-version>
